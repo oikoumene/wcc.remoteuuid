@@ -16,6 +16,7 @@
     <include package=".behavior"/>
     <include package=".portlet"/>
 
+    <adapter name="remoteUUID" factory=".remoteuuidIndexer"/>
     <!-- -*- extra stuff goes here -*- -->
 
 </configure>
