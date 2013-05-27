@@ -15,7 +15,7 @@ def attributeRemoteUUID(context):
 
 class MutableRemoteUUID(grok.Adapter):
     grok.implements(IMutableRemoteUUID)
-    grok.adapts(IAttributeRemoteUUID)
+    grok.context(IAttributeRemoteUUID)
 
     def __init__(self, context):
         self.context = context
